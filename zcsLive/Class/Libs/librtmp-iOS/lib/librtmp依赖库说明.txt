@@ -1,0 +1,1 @@
+将librtmp-iOS.zip中lib目录解压到librtmp-iOS目录下

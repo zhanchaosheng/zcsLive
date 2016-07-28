@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11BDB9EF1D49A08D00811C92 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5943AE1D426CD10069C68E /* libcrypto.a */; };
+		11BDB9F01D49A08D00811C92 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5943AF1D426CD10069C68E /* librtmp.a */; };
+		11BDB9F11D49A08D00811C92 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5943B01D426CD10069C68E /* libssl.a */; };
 		1A5941951D4260450069C68E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5941941D4260450069C68E /* main.m */; };
 		1A5941981D4260450069C68E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5941971D4260450069C68E /* AppDelegate.m */; };
 		1A59419B1D4260450069C68E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A59419A1D4260450069C68E /* ViewController.m */; };
@@ -218,9 +221,6 @@
 		1A5944BC1D426CD10069C68E /* LFStreamingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5943541D426CD10069C68E /* LFStreamingBuffer.m */; };
 		1A5944BD1D426CD10069C68E /* LFStreamRtmpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5943561D426CD10069C68E /* LFStreamRtmpSocket.m */; };
 		1A5944BE1D426CD10069C68E /* NSMutableArray+LFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5943591D426CD10069C68E /* NSMutableArray+LFAdd.m */; };
-		1A5944BF1D426CD10069C68E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5943AE1D426CD10069C68E /* libcrypto.a */; };
-		1A5944C01D426CD10069C68E /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5943AF1D426CD10069C68E /* librtmp.a */; };
-		1A5944C11D426CD10069C68E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5943B01D426CD10069C68E /* libssl.a */; };
 		1A5944C21D426CD10069C68E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1A5943B11D426CD10069C68E /* LICENSE */; };
 		1A5944C31D426CD10069C68E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1A5943B21D426CD10069C68E /* README.md */; };
 		1A5944C41D426CD10069C68E /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5943B51D426CD10069C68E /* MASCompositeConstraint.m */; };
@@ -253,9 +253,6 @@
 		1A5944E01D426E130069C68E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5944DF1D426E130069C68E /* libz.tbd */; };
 		1A5944E31D426EAB0069C68E /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5944E21D426EAB0069C68E /* libbz2.tbd */; };
 		1A5944E81D426F1C0069C68E /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5944E41D426F1C0069C68E /* IJKMediaFramework.framework */; };
-		1A5944E91D426F1C0069C68E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5944E51D426F1C0069C68E /* libcrypto.a */; };
-		1A5944EA1D426F1C0069C68E /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5944E61D426F1C0069C68E /* librtmp.a */; };
-		1A5944EB1D426F1C0069C68E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5944E71D426F1C0069C68E /* libssl.a */; };
 		1A5944FE1D4272AB0069C68E /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5944FD1D4272AB0069C68E /* MainTabBarController.m */; };
 		1A5945011D4274FF0069C68E /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5945001D4274FF0069C68E /* MainNavigationController.m */; };
 		1A5945041D427ADE0069C68E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5945031D427ADE0069C68E /* HomeViewController.m */; };
@@ -846,9 +843,6 @@
 		1A5944DF1D426E130069C68E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1A5944E21D426EAB0069C68E /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		1A5944E41D426F1C0069C68E /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
-		1A5944E51D426F1C0069C68E /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		1A5944E61D426F1C0069C68E /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
-		1A5944E71D426F1C0069C68E /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		1A5944FC1D4272AB0069C68E /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		1A5944FD1D4272AB0069C68E /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		1A5944FF1D4274FF0069C68E /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
@@ -890,15 +884,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11BDB9EF1D49A08D00811C92 /* libcrypto.a in Frameworks */,
+				11BDB9F01D49A08D00811C92 /* librtmp.a in Frameworks */,
+				11BDB9F11D49A08D00811C92 /* libssl.a in Frameworks */,
 				1A5944E31D426EAB0069C68E /* libbz2.tbd in Frameworks */,
 				1A5944E01D426E130069C68E /* libz.tbd in Frameworks */,
-				1A5944EB1D426F1C0069C68E /* libssl.a in Frameworks */,
-				1A5944EA1D426F1C0069C68E /* librtmp.a in Frameworks */,
-				1A5944C01D426CD10069C68E /* librtmp.a in Frameworks */,
 				1A5944E81D426F1C0069C68E /* IJKMediaFramework.framework in Frameworks */,
-				1A5944BF1D426CD10069C68E /* libcrypto.a in Frameworks */,
-				1A5944C11D426CD10069C68E /* libssl.a in Frameworks */,
-				1A5944E91D426F1C0069C68E /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1731,9 +1722,6 @@
 			children = (
 				1A5944DF1D426E130069C68E /* libz.tbd */,
 				1A5944E21D426EAB0069C68E /* libbz2.tbd */,
-				1A5944E51D426F1C0069C68E /* libcrypto.a */,
-				1A5944E61D426F1C0069C68E /* librtmp.a */,
-				1A5944E71D426F1C0069C68E /* libssl.a */,
 				1A5944E41D426F1C0069C68E /* IJKMediaFramework.framework */,
 			);
 			path = Framework;

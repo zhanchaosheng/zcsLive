@@ -1,0 +1,1 @@
+下载IJKMediaFramework.framework.zip并直接解压到Framework目录下
